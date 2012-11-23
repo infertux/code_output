@@ -36,7 +36,7 @@ parser.run # executes the script
 parser.raw_output #=> "nil\n:initialize\n"
 parser.file_with_output #=> "# example.rb\n\nclass Example\n\n  def initialize\n    p __method__ #=> :initialize\n  end\n\n  p __method__ #=> nil\n\nend\n\nExample.new\n"
 
-parser.dump 'example_with_output.rb' # writes file_with_output content into the given file
+parser.dump 'example_with_output.rb' # writes file_with_output into the given file
 ```
 
 ## Installation

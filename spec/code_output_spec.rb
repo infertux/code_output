@@ -48,7 +48,7 @@ describe CodeOutput do
 
   describe "#dump" do
     assets do |asset, filename|
-      it "write the expected contents for #{filename}" do
+      it "writes the expected contents for #{filename}" do
         parser = CodeOutput::Parser.new asset[:source_file]
         parser.run
 
