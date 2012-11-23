@@ -1,0 +1,3 @@
+puts
+"p"
+$stdout.puts
